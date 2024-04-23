@@ -1,0 +1,194 @@
+/* Previous CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.tweets {
+    width: 60%;
+}
+
+aside {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Updated CSS styles */
+
+.tweet {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.tweet-content h3 {
+    margin: 0;
+}
+
+.tweet-content p {
+    margin: 5px 0;
+}
+
+.trending, .who-to-follow {
+    margin-bottom: 20px;
+}
+
+.trending h2, .who-to-follow h2 {
+    margin: 0 0 10px;
+}
+
+.trending ul, .who-to-follow ul {
+    padding: 0;
+    list-style: none;
+}
+
+.trending li, .who-to-follow li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.who-to-follow li {
+    display: flex;
+}
+
+.who-to-follow img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.who-to-follow div {
+    flex: 1;
+}
+/* Existing CSS styles */
+
+/* Updated CSS styles */
+
+.tweet {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.tweet-content h3 {
+    margin: 0;
+}
+
+.tweet-content p {
+    margin: 5px 0;
+}
+
+/* Additional styling for trending topics and who to follow */
+
+.trending, .who-to-follow {
+    margin-bottom: 20px;
+}
+
+.trending h2, .who-to-follow h2 {
+    margin: 0 0 10px;
+}
+
+.trending ul, .who-to-follow ul {
+    padding: 0;
+    list-style: none;
+}
+
+.trending li, .who-to-follow li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.who-to-follow li {
+    display: flex;
+}
+
+.who-to-follow img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.who-to-follow div {
+    flex: 1;
+}
