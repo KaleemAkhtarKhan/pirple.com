@@ -52,7 +52,7 @@ main {
 aside {
     width: 30%;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccce3;
     border-radius: 5px;
     padding: 10px;
 }
